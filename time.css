@@ -40,6 +40,7 @@ input{
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
     font-family: 'Tilt Neon', cursive;
+    outline: none;
 }
 button{
     padding: 10px;
