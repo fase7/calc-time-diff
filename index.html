@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="time.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Get Time Diffrance Between Dates</h1>
+        <input type="date" name="" id="old">
+        <input type="date" name="" id="now">
+        <div id="buttons">
+            <button onclick="calcdays()">Calc Days</button>
+            <button onclick="calcmin()">Calc Mins</button>
+            <button onclick="calcsec()">Calc sec</button>
+        </div>
+        
+    </div>
+    <div id="over" class="hide">
+        <p id="output"></p>
+        <button id="back" onclick="hide()">Back</button>
+    </div>
+</div>
+
+    
+</body>
+
+<script src="time.js"></script>
+</html>
